@@ -1,1 +1,62 @@
+.form {
+          width: 100vw;
+          height: 70vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.formContainer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 500px;
+          margin-top: 150px;
+          height: auto;
+          padding: 20px;
+          border: 5px solid dodgerblue;
+          border-radius: 20px;
+}
+
+.formContainer #inputCreatePost {
+          width: 480px;
+          height: 40px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          border: 2px solid grey;
+          border-radius: 5px;
+          padding-left: 10px;
+          font-size: 20px;
+}
+
+.formContainer button {
+          width: 480px;
+          height: 40px;
+          border: none;
+          background-color: lightskyblue;
+          border-radius: 5px;
+          color: white;
+}
+
+.formContainer button:hover {
+          cursor: pointer;
+          background-color: dodgerblue;
+}
+
+span {
+          color: red;
+}
+
+.formContainer .cancel {
+          height: 40px;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          background-color: rgb(24, 26, 29);
+}
+
+.formContainer .cancel:hover {
+          cursor: pointer;
+          background-color: rgb(28, 36, 56);
+}
 
