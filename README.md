@@ -1,1 +1,5 @@
 # Phonebook
+
+- ReactJs
+- NodeJs
+- MySql
